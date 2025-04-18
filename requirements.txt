@@ -1,0 +1,10 @@
+streamlit
+pandas
+folium
+streamlit-folium
+joblib
+scikit-learn
+matplotlib
+numpy
+pydeck
+gdown
