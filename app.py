@@ -47,17 +47,19 @@ st.sidebar.write("Unique Location-Long:", df['location-long'].nunique())
 # --- Section 1: EDA Snapshots ---
 if section == "EDA Snapshots":
     st.title("Exploratory Data Analysis Snapshots")
-    st.image("/Users/admin/Downloads/eda_migration_paths.png", caption="Migration Paths")
-    st.image("/Users/admin/Downloads/eda_migration_outliers.png", caption="Outliers Highlighted")
-    st.image("/Users/admin/Downloads/eda_correlation_heatmap.png", caption="Correlation Heatmap")
-    st.image("/Users/admin/Downloads/eda_altitude_dist.png", caption="Altitude Distribution")
-    st.image("/Users/admin/Downloads/eda_heading_dist.png", caption="Heading Distribution")
-    st.image("/Users/admin/Downloads/eda_temperature.png", caption="Temperature Over Time")
-    st.image("/Users/admin/Downloads/eda_cluster_speed.png", caption="Speed per Cluster")
-    st.image("/Users/admin/Downloads/eda_heatmap.png", caption="Migration Heatmap")
-    st.image("/Users/admin/Downloads/eda_cluster_speed_over_time.png", caption="Speed Over Time")
-    st.image("/Users/admin/Downloads/eda_cluster_direction_over_time.png", caption="Direction Over Time")
-    st.image("/Users/admin/Downloads/eda_sensor_geolocation.png", caption="Sensor Movement")
+    
+    st.image("images/eda_migration_paths.png", caption="Migration Paths")
+    st.image("images/eda_migration_outliers.png", caption="Outliers Highlighted")
+    st.image("images/eda_correlation_heatmap.png", caption="Correlation Heatmap")
+    st.image("images/eda_altitude_dist.png", caption="Altitude Distribution")
+    st.image("images/eda_heading_dist.png", caption="Heading Distribution")
+    st.image("images/eda_temperature.png", caption="Temperature Over Time")
+    st.image("images/eda_cluster_speed.png", caption="Speed per Cluster")
+    st.image("images/eda_heatmap.png", caption="Migration Heatmap")
+    st.image("images/eda_cluster_speed_over_time.png", caption="Speed Over Time")
+    st.image("images/eda_cluster_direction_over_time.png", caption="Direction Over Time")
+    st.image("images/eda_sensor_geolocation.png", caption="Sensor Movement")
+    
     st.markdown("""
     ### Footnote:
     The above images represent various exploratory data analysis (EDA) aspects such as migration paths, 
