@@ -1,4 +1,4 @@
-# taiga-goose-app
+# APPLICATION OF MACHINE LEARNING IN PREDICTING TAIGA GOOSE MIGRATION
 This project focuses on analyzing and predicting the migration patterns of the Taiga Bean Goose, using real-world GPS tracking data and machine learning. The main objective was to understand movement behavior and build a model to predict future locations of individual birds based on past movements.
 
 The data was sourced from Movebank, containing GPS tracking records for 44 individual geese over the 2019–2020 migration period. Each record included latitude, longitude, timestamp, speed, heading, and altitude. Additional environmental variables like wind, temperature, and precipitation were integrated from the ERA5 climate dataset.
